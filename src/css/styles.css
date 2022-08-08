@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "League Spartan", sans-serif;
+  line-height: 1;
+  height: 100vh;
+  background-color: var(--main-background);
+
+  transition: all 0.5s;
+}
+
+main {
+  position: relative;
+}
+
+.container {
+  margin: 0 auto;
+  width: 54rem;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.calculator-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+/*****************************/
+/* ATTRIBUTION */
+/*****************************/
+.attribution {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: -5%;
+  font-size: 11px;
+  width: 100%;
+}
+
+.attribution a { 
+  color: hsl(228, 61%, 23%); 
+}
+
+/********************************/
+/* QUERIES */
+/********************************/
+
+/********************************/
+/* BELOW 592px*/
+
+@media (max-width: 37em) {
+  html {
+    font-size: 52.6%;
+  }
+
+  .container {
+    width: 40rem;
+  }
+
+  .keypad {
+    column-gap: 1.4rem;
+    row-gap: 1.8rem;
+    border-radius: 11px;
+  }
+
+  .key {
+    width: 7.3rem;
+    height: 7.4rem;
+    border-radius: 5px;
+  }
+
+  .key-wide {
+    width: auto;
+    font-size: 2.3rem;
+  }
+
+  .key-func {
+    font-size: 2.3rem;
+  }
+  
+  .key-output {
+    grid-column: 3 / 5 !important;
+    font-size: 2.2rem;
+  }
+}

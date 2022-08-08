@@ -1,0 +1,56 @@
+.theme-1 {
+  --main-background: hsl(222, 26%, 31%);
+  --screen-background: hsl(224, 36%, 15%);
+  --keypad-background: hsl(223, 31%, 20%);
+  --main-key-background: hsl(30, 25%, 89%);
+  --main-key-shadow: hsl(28, 16%, 65%);
+  --main-key-hover: hsl(0, 0%, 100%);
+  --output-key-background: hsl(6, 63%, 50%);
+  --output-key-shadow: hsl(6, 70%, 34%);
+  --output-key-hover: hsl(6, 87%, 64%);
+  --func-key-background: hsl(225, 21%, 49%);
+  --func-key-shadow: hsl(224, 28%, 35%);
+  --func-key-hover: hsl(225, 57%, 76%);
+  --text-main: hsl(0, 0%, 100%);
+  --text-func: hsl(0, 0%, 100%);
+  --text-num: hsl(221, 14%, 31%);
+  --text-output-key: hsl(0, 0%, 100%);
+}
+
+.theme-2 {
+  --main-background: hsl(0, 0%, 90%);
+  --screen-background: hsl(0, 0%, 93%);
+  --keypad-background: hsl(0, 5%, 81%);
+  --main-key-background: hsl(45, 7%, 89%);
+  --main-key-shadow: hsl(35, 11%, 61%);
+  --main-key-hover: hsl(0, 0%, 100%);
+  --output-key-background: hsl(25, 98%, 40%);
+  --output-key-shadow: hsl(25, 99%, 27%);
+  --output-key-hover: hsl(25, 96%, 62%);
+  --func-key-background: hsl(185, 42%, 37%);
+  --func-key-shadow: hsl(185, 58%, 25%);
+  --func-key-hover: hsl(185, 44%, 56%);
+  --text-main: hsl(60, 10%, 19%);
+  --text-func: hsl(0, 0%, 100%);
+  --text-num: hsl(60, 10%, 19%);
+  --text-output-key: hsl(0, 0%, 100%);
+}
+
+.theme-3 {
+  --main-background: hsl(268, 75%, 9%);
+  --screen-background: hsl(268, 71%, 12%);
+  --keypad-background: hsl(268, 71%, 12%);
+  --main-key-background: hsl(268, 47%, 21%);
+  --main-key-shadow: hsl(290, 70%, 36%);
+  --main-key-hover: hsl(268, 45%, 42%);
+  --output-key-background: hsl(176, 100%, 44%);
+  --output-key-shadow: hsl(177, 92%, 70%);
+  --output-key-hover: hsl(176, 100%, 77%);
+  --func-key-background: hsl(281, 89%, 26%);
+  --func-key-shadow: hsl(285, 91%, 52%);
+  --func-key-hover: hsl(281, 59%, 44%);
+  --text-main: hsl(52, 100%, 62%);
+  --text-func: hsl(0, 0%, 100%);
+  --text-num: hsl(52, 100%, 62%);
+  --text-output-key: hsl(198, 20%, 13%);
+}

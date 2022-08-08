@@ -1,0 +1,69 @@
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  column-gap: 2.4rem;
+  row-gap: 3.2rem;
+  padding: 3.2rem;
+  border-radius: 11px;
+  background-color: var(--keypad-background);
+}
+
+/***************************/
+/* MAIN KEY */
+/***************************/
+.key {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  padding: 1.4rem 2.4rem 0.8rem;
+  border: none;
+  border-radius: 11px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.key:active {
+  transform: translateY(0.5rem);
+  box-shadow: none;
+}
+
+.key-wide {
+  grid-column: 1 / 3;
+}
+
+.key-main {
+  font-size: 3.8rem;
+  color: var(--text-num);
+  background-color: var(--main-key-background);
+  box-shadow: 0 0.5rem 0 var(--main-key-shadow);
+}
+
+.key-main:hover {
+  background-color: var(--main-key-hover)
+}
+
+.key-func {
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  color: var(--text-func);
+  background-color: var(--func-key-background);
+  box-shadow: 0 0.5rem 0 var(--func-key-shadow);
+}
+
+.key-func:hover {
+  background-color: var(--func-key-hover);
+}
+
+.key-output {
+  grid-column: 3 / 5;
+  font-size: 3.8rem;
+  color: var(--text-output-key);
+  background-color: var(--output-key-background);
+  box-shadow: 0 0.5rem 0 var(--output-key-shadow);
+}
+
+.key-output:hover {
+  background-color: var(--output-key-hover);
+}

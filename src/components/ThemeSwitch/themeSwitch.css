@@ -1,0 +1,71 @@
+.theme-switch {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.4rem;
+  font-size: 1.2rem;
+  color: var(--text-main);
+}
+
+.switch-top {
+  display: flex;
+  padding: 0 1rem;
+  gap: 1.6rem;
+}
+
+.switch-bottom {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.switch-text {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 0.7rem;
+}
+
+.switch-bar {
+  position: relative;
+  display: flex;
+  width: 7rem;
+  height: 2.6rem;
+  border-radius: 100px;
+  background-color: var(--keypad-background);
+}
+
+.switch-bar-btn {
+  width: 33%;
+  height: 100%;
+  border: none;
+  background: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.switch-circle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 50%;
+  background-color: var(--output-key-background);
+
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.switch-circle:hover {
+  background-color: var(--output-key-hover);
+}
+
+.theme-1 .switch-circle {
+  left: 0.5rem;
+}
+.theme-2 .switch-circle {
+  left: 2.6rem;
+}
+.theme-3 .switch-circle {
+  left: 4.8rem;
+}

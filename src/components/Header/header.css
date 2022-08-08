@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 3rem;
+  color: var(--text-main);
+  align-self: flex-end;
+  margin-left: 1rem;
+}
